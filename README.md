@@ -30,24 +30,9 @@ for k in range(len(x)):
     turn_left()
 ```
 
-### No list or arrays allowed - 10 lines, Thai 2022/09/20
+## No lists, arrays or conditional statements (if or while) allowed
 
-Down to 10 lines?
-
-``` py
-row, repeat = 9, 3
-for i in range(9):
-    for j in range(repeat):
-        for k in range(row):
-            move()
-            put_ball()
-        turn_left()
-    repeat = 2
-    row -= 1
-turn_left()
-```
-
-Prior it were 11 lines by Alex:
+### Alex started with just 11:
 
 ``` py
 for i in range(9):
@@ -63,7 +48,22 @@ for i in range(9):
 turn_left()
 ```
 
-#### Update 2022/09/21 - 9 lines is enough
+### Thai reduced it to 10 lines
+
+``` py
+row, repeat = 9, 3
+for i in range(9):
+    for j in range(repeat):
+        for k in range(row):
+            move()
+            put_ball()
+        turn_left()
+    repeat = 2
+    row -= 1
+turn_left()
+```
+
+#### Update 2022/09/20 - 9 lines is possible
 
 ``` py
 repeat = 3
@@ -75,4 +75,17 @@ for i in range(9,0,-1):
         turn_left()
     repeat = 2
 turn_left()
+```
+
+### Update 2022/09/20 - Wayne needed only 8 lines!
+
+``` py
+def lane(y):
+    for banana in range(y):
+        move()
+        put_ball()
+    turn_left()
+lane(9)
+for i in range(19):
+    lane(-1 * (i/2 - 9))
 ```

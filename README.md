@@ -3,9 +3,9 @@ Some Karel code from CodeHS and Python
 
 ## Efficient Code
 
-[Try yourself on CodeHS here](https://codehs.com/sandbox/mkreier2022/10-minute-task-2022-09-19) or this [Task 218](https://codehs.com/sandbox/mkreier2022/mastery-check-module-2-challenge-218).
+[Try for yourself on CodeHS here](https://codehs.com/sandbox/mkreier2022/10-minute-task-2022-09-19) or with this [Task 218](https://codehs.com/sandbox/mkreier2022/mastery-check-module-2-challenge-218) to solve the maze in less steps than 218.
 
-The starting point to the maze looks like the left, the final is the right. What is the minimum amount of lines to solve the maze, put a ball on each spot and face East? The [218 procedural steps](https://github.com/kreier/csp2022/blob/main/UltraKarel/spiral.py) could possibly be reduced with some algorithms.
+The starting point to the maze looks like the left, the final is the right. What is the minimum amount of lines to solve the maze, put a ball on each spot and face East? The [218 procedural steps](https://github.com/kreier/csp/blob/main/SuperKarel/218steps.py) could possibly be reduced with some algorithms.
 
 <img src="SuperKarel/start.png" width="45%"> <img src="SuperKarel/final.png" width="45%">
 

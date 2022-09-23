@@ -31,15 +31,24 @@ def rect(x, y, width, height, color_of_rectangle):
     go(x)
     turn_around()
 
+
 # Norway
+"""
 rect(0, 15, 6, 6, color['red'])
 rect(10, 15, 11, 6, color['red'])
 rect(0, 5, 6, 6, color['red'])
 rect(10, 5, 11, 6, color['red'])
 rect(7, 15, 2, 16, color['blue'])
 rect(0, 8, 21, 2, color['blue'])
+"""
+
 # France
 """
 rect(0, 15, 7, 16, color['blue'])
 rect(14, 15, 7, 16, color['red'])
 """
+
+
+# Italy
+rect(0, 15, 7, 16, color['green'])
+rect(14, 15, 7, 16, color['red'])

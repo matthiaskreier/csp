@@ -1,5 +1,8 @@
 # csp
-Some Karel code from CodeHS and Python
+
+<img src="graphic/challenge.png" align="right" width="20%">
+
+Some Karel code from CodeHS and Python. And used in the [challenges](https://sites.google.com/ssis.edu.vn/apcsp/home/challenges) on our schools website.
 
 ## Efficient Code
 
